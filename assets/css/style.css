@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+}
+nav {
+  height: 3rem;
+  background-color: gray;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-brand{
+    text-align: center;
+    line-height: 3rem;
+}
+.nav-brand:hover{
+    color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead {
+  height: 2rem;
+}
+.table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table td {
+  padding: 12px 0;
+}
+table td {
+  text-align: left;
+}
+table td a:last-child {
+  margin-left: 10px;
+}
+
+.main{
+    width:60%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.new-user{
+    width: 100%;
+    margin: 2rem;
+}
+.form-title{
+    width:100%;
+    text-align: center;
+    margin: 2rem;
+    background-color:gray;
+    height: 2rem;
+    line-height: 2rem;
+    vertical-align:center;
+}
+
+input[type=text], input[type=email]{
+    width:100%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 10px;
+    background-color: #d4b8b8;
+    border: none;
+}
+.radio-inline{
+    display:inline-block;
+    margin: 10px;
+
+}
+
+input[type=submit]{
+    padding: 5px 20px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #45a049;
+    outline: none;
+    border: none;
+
+}
+input[type=submit]:hover{
+    color: white;
+    cursor: pointer;
+
+}

@@ -1,0 +1,6 @@
+Some text is written!!
+<% if () {%>
+Som code to be executed when the condition is true.
+<% } else {%>
+some code to be executed when the condition is false.
+<%}%>
